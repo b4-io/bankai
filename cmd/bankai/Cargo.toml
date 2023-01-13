@@ -1,0 +1,12 @@
+[package]
+name = "bankai"
+version = "0.0.0"
+edition = "2021"
+authors = ["Bruno De Simone"]
+
+[[bin]]
+name = "bankai"
+path = "main.rs"
+
+[dependencies]
+clap = { version = "4.0.32", features = ["derive"] }
